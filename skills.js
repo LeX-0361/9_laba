@@ -26,8 +26,7 @@ function add_skills() {
         div.textContent = item.level;
 
         dd.appendChild(div);
-        dl.append(dt); 
-        dl.append(dd); 
+        dl.append(dt, dd); 
     });
 
     document.querySelector('.skills').append(dl)
