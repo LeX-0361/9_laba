@@ -3,8 +3,8 @@ const skills = [
     {css_class: "skill-c-plus", name: "C++", level: 75},
     {css_class: "skill-css", name: "Cascading Style Sheets", level: 44},
     {css_class: "skill-html", name: "Hyper Text Markup Language", level: 32},
-    {css_class: "skill-php", name: "Hypertext Preprocessor", level: 26}
-]
+    {css_class: "skill-php", name: "Hypertext Preprocessor", level: 26},
+];
 
 
 
