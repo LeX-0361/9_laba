@@ -30,7 +30,7 @@ function add_skills() {
         dl.append(dd); 
     });
 
-    document.querySelector('skills').append(dl)
+    document.querySelector('.skills').append(dl)
 }
 
 add_skills();
