@@ -25,8 +25,8 @@ function add_skills() {
         div.style.width = item.level + '%';
         div.textContent = item.level;
 
-        dd.appendChild(div);
-        dl.append(dt, dd); 
+        dd.appendChild(div); /*appendChild задаёт только один элемент в конец*/
+        dl.append(dt, dd); /*используя append можно добавить сразу списком*/
     });
 
     document.querySelector('.skills').append(dl)
